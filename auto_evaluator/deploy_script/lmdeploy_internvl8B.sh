@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=4,5 lmdeploy serve api_server /fs-computility/ai4sData/shared/models/InternVL2_5-8B --tp 4 --server-port 8000

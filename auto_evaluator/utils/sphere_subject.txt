@@ -1,0 +1,19 @@
+Sphere (大学科)	Total Count (总数量)
+Hydrology	3016
+Ecology and Biosciences	1319
+Geology	2493
+Solid Earth Geophysics	1498
+Geography	1771
+Polar Science	465
+Atmospheric Sciences	2035
+Oceanography	1191
+
+Sphere (大学科)	Top 1 Sub-discipline (数量最多的二级学科)	Count	Top 2 Sub-discipline	Count	Top 3 Sub-discipline	Count
+Hydrology	River Hydrology and Estuarine Hydrology	805	Groundwater Hydrology	790	Limnology	439
+Ecology and Biosciences	Aquatic Ecology and Limnological Ecology	562	Landscape Ecology	298	Ecosystem Ecology	280
+Geology	Sedimentology	1068	Quaternary Geology	298	Structural Geology	215
+Solid Earth Geophysics	Seismology	845	Tectonophysics	343	Exploration Geophysics	74
+Geography	Physical Geography	1575	Urban Geography	76	Geomorphology	40
+Polar Science	Glaciology	352	Polar Climate Science	46	Permafrost Science	31
+Atmospheric Sciences	Meteorology	920	Climatology	619	Atmospheric Remote Sensing	159
+Oceanography	Ocean Physics	698	Ocean Geology	163	Environmental Oceanography	104

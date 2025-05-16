@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3 lmdeploy serve api_server /fs-computility/ai4sData/earth-shared/zxy/models/pretrain/20250415120936/hf-1749 --tp 4 --server-port 8000
