@@ -1,4 +1,4 @@
-CUDA_VISIBLE_DEVICES=0,1 vllm serve /fs-computility/ai4sData/shared/models/Llama-3.2-11B-Vision-Instruct \
+CUDA_VISIBLE_DEVICES=0,1 vllm serve /Llama-3.2-11B-Vision-Instruct \
 --served-model-name Llama-3.2-11B-Vision-Instruct \
 --max-model-len 20480 \
 --tensor-parallel-size 2 \

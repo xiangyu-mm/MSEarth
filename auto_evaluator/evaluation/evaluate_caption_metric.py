@@ -6,7 +6,7 @@ import os
 from argparse import ArgumentParser
 
 # 设置 Hugging Face 模型缓存路径
-os.environ["HF_HOME"] = "/fs-computility/ai4sData/zhaoxiangyu1/models/hub"  # 自定义路径
+os.environ["HF_HOME"] = "/models/hub"  # 自定义路径
 
 # 加载评估指标
 bleu_metric = evaluate.load("bleu")
@@ -132,6 +132,6 @@ def compute_process(input_file, output_file):
 if __name__ == "__main__":
     parser = ArgumentParser()
     parser.add_argument("--input-file", type=str, default='/root/code/deploy_qwen/result/good_question/', help="Base directory to save results")
-    parser.add_argument("--output-file", type=str, default='/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/captioning_sample.jsonl')
+    parser.add_argument("--output-file", type=str, default='/neurips_mmearth_benchmark/captioning_sample.jsonl')
     args = parser.parse_args()
     compute_process(input_file=args.input_file, output_file=args.output_file)

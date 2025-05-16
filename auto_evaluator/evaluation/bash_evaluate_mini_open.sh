@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # 设置默认参数
-MCQ_FILE="/fs-computility/ai4sData/zhaoxiangyu1/sampled_questions_with_models_and_caption.json"  # 替换为您的 MCQ 输入文件路径
-SAVE_DIR="/fs-computility/ai4sData/zhaoxiangyu1/abalation"  # 替换为保存结果的目录
+MCQ_FILE="/sampled_questions_with_models_and_caption.json"  # 替换为您的 MCQ 输入文件路径
+SAVE_DIR="/abalation"  # 替换为保存结果的目录
 MODEL="InternVL3-78B"  # 替换为您要使用的模型名称
 
 # 打印参数信息

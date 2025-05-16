@@ -173,7 +173,7 @@ class DatasetProcessor:
     def process_file(self):
         results = []
         for data in tqdm(self.data_list, desc=f"Processing {self.task_type} task with {self.model}"):
-            figure_path = "/fs-computility/ai4sData/zhaoxiangyu1/mmearth_images/" + data.get("images")[0]
+            figure_path = "/mmearth_images/" + data.get("images")[0]
             query = data.get("query", "")
             response = data.get("response", "")
             prompt = self.get_prompt(query=query)
@@ -202,10 +202,10 @@ class DatasetProcessor:
 
 if __name__ == '__main__':
     parser = ArgumentParser()
-    parser.add_argument("--captioning-file", type=str, default="/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/benchmark_data/captioning_sample.jsonl")
-    parser.add_argument("--open-file", type=str, default="/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/benchmark_data/merge_open_1500.jsonl")
-    parser.add_argument("--mcq-file", type=str, default="/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/benchmark_data/merged_mcq_data.jsonl")
-    parser.add_argument("--save-dir", type=str, default="/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/evaluation_result_closed_models", help="Directory to save results")
+    parser.add_argument("--captioning-file", type=str, default="/neurips_mmearth_benchmark/benchmark_data/captioning_sample.jsonl")
+    parser.add_argument("--open-file", type=str, default="/neurips_mmearth_benchmark/benchmark_data/merge_open_1500.jsonl")
+    parser.add_argument("--mcq-file", type=str, default="/neurips_mmearth_benchmark/benchmark_data/merged_mcq_data.jsonl")
+    parser.add_argument("--save-dir", type=str, default="/neurips_mmearth_benchmark/evaluation_result_closed_models", help="Directory to save results")
     parser.add_argument("--model", type=str, required=True, help="Model to test")
     args = parser.parse_args()
 

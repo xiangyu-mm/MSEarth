@@ -142,7 +142,7 @@ def process_qa_task(data, caption_mapping, model_name="Qwen2.5-VL-72B-Instruct")
     query = data["query"]
     response = data["response"]
     generated_answer = data["generated_answer"]
-    image_path = f"/fs-computility/ai4sData/zhaoxiangyu1/mmearth_images/{data['images'][0]}"
+    image_path = f"/mmearth_images/{data['images'][0]}"
     base64_image = encode_image(image_path)
 
     # 生成 Prompt 并调用 LLM
@@ -165,7 +165,7 @@ def process_captioning_task(data, model_name="Qwen2.5-VL-72B-Instruct"):
     generated_caption = data.get("generated_caption", None)  # 优先获取 generated_caption
     if not generated_caption:  # 如果 generated_caption 不存在，则尝试获取 generated_answer
         generated_caption = data.get("generated_answer", None)
-    image_path = f"/fs-computility/ai4sData/zhaoxiangyu1/mmearth_images/{data['images'][0]}"
+    image_path = f"/mmearth_images/{data['images'][0]}"
     base64_image = encode_image(image_path)
 
     # 生成 Prompt 并调用 LLM
@@ -199,7 +199,7 @@ def main():
     with open(args.input_file, "r") as f:
         input_data = json.load(f)
 
-    caption_file="/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/benchmark/results/msearth_open.json"
+    caption_file="/neurips_mmearth_benchmark/benchmark/results/msearth_open.json"
     
     # 处理 QA 任务
     if args.task == "qa":

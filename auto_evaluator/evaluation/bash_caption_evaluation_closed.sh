@@ -1,16 +1,16 @@
 #!/bin/bash
 
 # 设置代理环境变量（如有需要，可以注释掉）
-export http_proxy=http://100.68.170.107:3128
-export https_proxy=http://100.68.170.107:3128
-export HF_HOME=/fs-computility/ai4sData/zhaoxiangyu1/models/hub
+export http_proxy=
+export https_proxy=
+export HF_HOME=
 
 # 输入文件夹路径
-INPUT_FOLDER="/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/evaluation_result_closed_models"
+INPUT_FOLDER="/fs-computility/ai4sData/zhaoxiangyu1//evaluation_result_closed_models"
 
 # Python 脚本路径
-SCRIPT1_PATH="/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/evaluation/evaluate_caption_metric.py"
-SCRIPT2_PATH="/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/evaluation/evaluate_openended_metric.py"
+SCRIPT1_PATH="/fs-computility/ai4sData/zhaoxiangyu1//evaluation/evaluate_caption_metric.py"
+SCRIPT2_PATH="/fs-computility/ai4sData/zhaoxiangyu1//evaluation/evaluate_openended_metric.py"
 
 # 检查输入文件夹是否存在
 if [ ! -d "$INPUT_FOLDER" ]; then

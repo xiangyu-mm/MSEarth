@@ -82,7 +82,7 @@ def get_answer_prompt(query, caption=None):
     return prompt
 
 def process_data(data, model_name="Qwen/Qwen2.5-VL-72B-Instruct"):
-    figure_path = "/fs-computility/ai4sData/zhaoxiangyu1/mmearth_images/" + data.get("images")[0]
+    figure_path = "/mmearth_images/" + data.get("images")[0]
     query = data.get("query")
     input_prompt = get_answer_prompt(query)
     base64_image = encode_image(figure_path)

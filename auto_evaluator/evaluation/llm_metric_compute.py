@@ -48,7 +48,7 @@ def calculate_average_evaluation_per_file(folder_path):
             continue
 
 # 文件夹路径
-folder_path = "/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/evaluation_results_output"
+folder_path = "/neurips_mmearth_benchmark/evaluation_results_output"
 
 # 调用函数
 calculate_average_evaluation_per_file(folder_path)

@@ -131,7 +131,7 @@ def parse_option_and_content(answer_text):
 
 class Dataset_all:
     def __init__(self, 
-                file_path = '/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/data_v1/mcq_v7.jsonl',
+                file_path = '/neurips_mmearth_benchmark/data_v1/mcq_v7.jsonl',
                 save_dir1='/root/code/deploy_qwen/result/good_question/qwen.jsonl',
                 save_dir2='/root/code/deploy_qwen/result/good_question/further.jsonl',
                 save_dir3='/root/code/deploy_qwen/result/good_question/exception.jsonl',

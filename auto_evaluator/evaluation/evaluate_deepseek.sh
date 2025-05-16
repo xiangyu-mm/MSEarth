@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # 定义变量
-CAPTIONING_FILE="/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/benchmark_data/captioning_sample.jsonl"
-OPEN_FILE="/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/benchmark_data/merge_open_1500.jsonl"
-MCQ_FILE="/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/benchmark_data/merged_mcq_data.jsonl"
-SAVE_DIR="/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/evaluation_result_closed_models"
+CAPTIONING_FILE="/neurips_mmearth_benchmark/benchmark_data/captioning_sample.jsonl"
+OPEN_FILE="/neurips_mmearth_benchmark/benchmark_data/merge_open_1500.jsonl"
+MCQ_FILE="/neurips_mmearth_benchmark/benchmark_data/merged_mcq_data.jsonl"
+SAVE_DIR="/neurips_mmearth_benchmark/evaluation_result_closed_models"
 
 # 定义模型列表
 # MODELS=("gpt-4o-2024-11-20", "claude-3-5-haiku-latest", "claude-3-7-sonnet-latest","gpt-4o-mini", "gemini-2.5-flash-thinking","gemini-2.5-pro-thinking")

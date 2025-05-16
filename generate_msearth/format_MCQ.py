@@ -171,12 +171,12 @@ def remove_figure_references(text):
 
 client = Client(conf_path="~/petreloss.conf")
 
-with open('/mnt/petrelfs/zhaoxiangyu1/code/mmearth/earth_all.json', 'r', encoding='utf-8') as f:
+with open('/earth_all.json', 'r', encoding='utf-8') as f:
     files = json.load(f)
 
 output_results = []
 all_num = 0
-new_url = 'cluster2:s3://zwl2/mmearth/v0/'
+new_url = 'cluster2:'
 contents = client.list(new_url)
 part_list = []
 i=0
@@ -204,8 +204,8 @@ for content in tqdm(contents):
             # 获取 figure_path 指向图片
             figure_path = item_data.get('figure_path')
             figure_path = figure_path.replace(
-                's3://llm-pipeline-media/pdf-imgs/',
-                '/fs-computility/ai4sData/zhaoxiangyu1/mmearth_images/'
+                's3://pdf-imgs/',
+                '/mmearth_images/'
             )
             # 检查是否包含 vqa_json
             vqa_json = item_data.get('vqa_json')
@@ -315,7 +315,7 @@ def save_to_jsonl(output_results, output_path):
             f.write(json.dumps(result, ensure_ascii=False) + '\n')
 
 # 设置保存路径
-output_file_path = "/mnt/petrelfs/zhaoxiangyu1/code/mmearth/playground/mcq_v7.jsonl"
+output_file_path = "/mcq_v7.jsonl"
 
 # 执行保存
 save_to_jsonl(output_results, output_file_path)

@@ -2,9 +2,9 @@ import json
 from collections import defaultdict
 
 # 文件路径
-file1_path = "/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/benchmark/results/msearth_open.json"
-file2_path = "/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/evaluation_results_output/qa_evaluation_openended_result_qwen72B.jsonl"
-output_path = "/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/evaluation_results_output/qa_evaluation_openended_result_qwen72B2.jsonl"
+file1_path = "/neurips_mmearth_benchmark/benchmark/results/msearth_open.json"
+file2_path = "/neurips_mmearth_benchmark/evaluation_results_output/qa_evaluation_openended_result_qwen72B.jsonl"
+output_path = "/neurips_mmearth_benchmark/evaluation_results_output/qa_evaluation_openended_result_qwen72B2.jsonl"
 
 # 读取 JSON 文件
 def read_json(file_path):

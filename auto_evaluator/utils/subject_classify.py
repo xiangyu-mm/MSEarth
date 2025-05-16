@@ -218,7 +218,7 @@ class DatasetProcessor:
         # Extract fields from the entry
         paper_title = entry.get("paper_title", "")
         research_question = entry.get("query", "")
-        image_path = "/fs-computility/ai4sData/zhaoxiangyu1/mmearth_images/" + entry.get("images")[0]
+        image_path = "/mmearth_images/" + entry.get("images")[0]
 
         # 如果是 captioning 文件，使用 response 字段作为 caption
         if "caption" not in entry:
@@ -270,7 +270,7 @@ class DatasetProcessor:
 if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument("--save-dir", type=str, default='/root/code/deploy_qwen/result/good_question/', help="Base directory to save results")
-    parser.add_argument("--test", type=str, default='/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/benchmark_data/merge_open_caption_no_caption.json')
+    parser.add_argument("--test", type=str, default='/neurips_mmearth_benchmark/benchmark_data/merge_open_caption_no_caption.json')
     parser.add_argument("--model-name", type=str, default='Qwen2.5-VL-72B-Instruct')
     args = parser.parse_args()
 

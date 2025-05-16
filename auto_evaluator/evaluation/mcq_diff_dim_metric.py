@@ -2,9 +2,9 @@ import json
 from collections import defaultdict
 
 # 文件路径
-file1_path = "/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/benchmark/results/msearth_mcq.json"
-file2_path = "/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/evaluation_result_closed_models/mcq_results_gemini-2.5-flash-preview-04-17_updated.json"
-output_path = "/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/evaluation_result_intervl3-78B/mcq_result_all.jsonl"
+file1_path = "/neurips_mmearth_benchmark/benchmark/results/msearth_mcq.json"
+file2_path = "/neurips_mmearth_benchmark/evaluation_result_closed_models/mcq_results_gemini-2.5-flash-preview-04-17_updated.json"
+output_path = "/neurips_mmearth_benchmark/evaluation_result_intervl3-78B/mcq_result_all.jsonl"
 
 # 动态读取文件内容（判断是 JSON 还是 JSONL 格式）
 def read_json_or_jsonl(file_path):

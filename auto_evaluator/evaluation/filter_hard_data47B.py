@@ -155,7 +155,7 @@ def parse_option_and_content(answer_text):
 
 class Dataset_all:
     def __init__(self, 
-                file_path = '/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/benchmark_data/normal_mcq_without_caption.jsonl',
+                file_path = '/neurips_mmearth_benchmark/benchmark_data/normal_mcq_without_caption.jsonl',
                 save_dir1='/root/code/deploy_qwen/result/good_question/qwen.jsonl',
                 question_type='MCQ',
                 model_name="qwen"
@@ -222,7 +222,7 @@ class Dataset_all:
 if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument("--save-dir", type=str, default='/root/code/deploy_qwen/result/good_question/', help="Base directory to save results")
-    parser.add_argument("--test", type=str, default='/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/benchmark_data/normal_mcq_without_caption.jsonl')
+    parser.add_argument("--test", type=str, default='/neurips_mmearth_benchmark/benchmark_data/normal_mcq_without_caption.jsonl')
     parser.add_argument("--model-name", type=str, default='qwen')
     args = parser.parse_args()
 

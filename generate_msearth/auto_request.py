@@ -193,8 +193,8 @@ def read_json_gz(self, path):
 
 class MMList:
     def __init__(self, 
-                file_path = '/mnt/petrelfs/zhaoxiangyu1/code/mmearth/earth_images_10w.json',
-                save_dir='/mnt/petrelfs/zhaoxiangyu1/code/mmearth/playground/50-60/',
+                file_path = '/earth_images_10w.json',
+                save_dir='/playground/50-60/',
                 start_idx=0,
                 end_idx=999999,
                 raw_cap_add=False,
@@ -213,7 +213,6 @@ class MMList:
             self.file_list = self.file_list[start_idx: end_idx]
 
     def read_json_gz(self, path):
-        # path: 'llm:s3://llm-pipeline/en-paper-scihub/epdfb@003_epdfc@003_tmp_clean/part-66210c190659-625524.jsonl.gz'
         json_list = []
         with gzip.GzipFile(fileobj=io.BytesIO(self.client.get(path))) as f:
             for line in f:
@@ -324,7 +323,7 @@ if __name__ == '__main__':
     parser.add_argument("--start-idx", type=int, default=5000)
     parser.add_argument("--end-idx", type=int, default=5005)
     parser.add_argument("--raw-cap-add", action='store_true', default=False)
-    parser.add_argument("--save-dir", type=str, default='/mnt/petrelfs/zhaoxiangyu1/code/mmearth/playground/refine_sample/')
+    parser.add_argument("--save-dir", type=str, default='/refine_sample/')
     args = parser.parse_args()
 
     start_idx = args.start_idx

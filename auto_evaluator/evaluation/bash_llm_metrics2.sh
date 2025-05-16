@@ -5,16 +5,16 @@ PYTHON_SCRIPT="llm_metric.py"
 
 # 定义 Captioning 任务文件列表
 CAPTIONING_FILES=(
-    "/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/evaluation_result_closed_models/captioning_results_gemini-2.5-flash-preview-04-17.jsonl"
+    "/neurips_mmearth_benchmark/evaluation_result_closed_models/captioning_results_gemini-2.5-flash-preview-04-17.jsonl"
 )
 
 # 定义 QA 任务文件列表
 QA_FILES=(
-    "/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/evaluation_result_closed_models/open_results_gemini-2.5-flash-preview-04-17.jsonl"
+    "/neurips_mmearth_benchmark/evaluation_result_closed_models/open_results_gemini-2.5-flash-preview-04-17.jsonl"
 )
 
 # 定义输出目录
-OUTPUT_DIR="/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/evaluation_results_output"
+OUTPUT_DIR="/neurips_mmearth_benchmark/evaluation_results_output"
 mkdir -p "$OUTPUT_DIR"
 
 # 定义模型名称

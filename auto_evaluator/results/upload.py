@@ -65,8 +65,8 @@ def create_benchmark_dataset(data_file, image_dir):
 
 if __name__ == "__main__":
     # 数据文件路径
-    data_file_path = "/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/benchmark/classification_results_captioning_sample.json"
-    image_directory = "/fs-computility/ai4sData/zhaoxiangyu1/mmearth_images"  # 替换为图片文件夹路径
+    data_file_path = "/neurips_mmearth_benchmark/benchmark/classification_results_captioning_sample.json"
+    image_directory = "/mmearth_images"  # 替换为图片文件夹路径
     hub_repo_name = "MSEarth/MSEarth_Captioning"  # 替换为您的 Hugging Face Hub 仓库名称
 
     # 创建数据集

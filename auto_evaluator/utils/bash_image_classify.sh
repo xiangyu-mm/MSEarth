@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # 设置输入文件路径
-INPUT_FILE_1="/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/benchmark/classification_results_merged_mcq.json"
-INPUT_FILE_2="/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/benchmark/classification_results_merge_open.json"
+INPUT_FILE_1="/neurips_mmearth_benchmark/benchmark/classification_results_merged_mcq.json"
+INPUT_FILE_2="/neurips_mmearth_benchmark/benchmark/classification_results_merge_open.json"
 
 # 设置输出目录
-OUTPUT_DIR="/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/benchmark/results/"
+OUTPUT_DIR="/neurips_mmearth_benchmark/benchmark/results/"
 
 # 确保输出目录存在
 mkdir -p "$OUTPUT_DIR"

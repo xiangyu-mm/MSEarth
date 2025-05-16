@@ -269,7 +269,7 @@ class DatasetProcessor:
         save_to_json(results, self.save_path)
 
     def process_single_data(self, data):
-        figure_path = "/fs-computility/ai4sData/zhaoxiangyu1/mmearth_images/" + data.get("images")[0]
+        figure_path = "/mmearth_images/" + data.get("images")[0]
         query = data.get("query", "")
 
         # 生成多个候选答案
