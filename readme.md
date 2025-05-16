@@ -61,10 +61,10 @@ You can choose different models from the list provided in the script:
 ```
 #!/bin/bash
 
-CAPTIONING_FILE="/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/benchmark_data/captioning_sample.jsonl"
-OPEN_FILE="/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/benchmark/results/msearth_open.json"
-MCQ_FILE="/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/benchmark/results/msearth_mcq.json"
-SAVE_DIR="/fs-computility/ai4sData/zhaoxiangyu1/neurips_mmearth_benchmark/evaluation_result_closed_models"
+CAPTIONING_FILE="MSEarth/evaluation/results/captioning_sample.jsonl"
+OPEN_FILE="MSEarth/evaluation/results/msearth_open.json"
+MCQ_FILE="MSEarth/evaluation/results/msearth_mcq.json"
+SAVE_DIR="/evaluation_result_closed_models"
 
 MODELS=("gpt-4o-2024-11-20", "claude-3-5-haiku-latest", "claude-3-7-sonnet-latest","gpt-4o-mini", "gemini-2.5-flash-thinking","gemini-2.5-pro-thinking")
 
