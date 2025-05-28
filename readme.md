@@ -2,6 +2,10 @@
 
 This guide provides instructions for evaluating both open-sourced and proprietary Multimodal Large Language Models (MLLMs) using the MSEarth framework. You can download the benchmark dataset and images form https://huggingface.co/MSEarth.
 
+## 🆕 News
+
+MSEarthMCQ has been supported by [**VLMEvalKit**](https://github.com/open-compass/VLMEvalKit/tree/b01d484ddc316ce2ce7f7f77f7b0c19f5f705f3b), thanks to [**OpenCompass**](https://github.com/open-compass).
+
 ## Evaluation for Open-Sourced MLLMs
 
 ### Setup
@@ -102,4 +106,3 @@ The evaluation metrics for MCQ results are automatically generated. You can coun
 `python MSEarth/utils/post_process4llama_mcq.py`
 
 This guide should help you effectively evaluate MLLMs using the MSEarth framework. Adjust paths and parameters as needed for your specific setup.
-# MSEarth
