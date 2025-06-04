@@ -1,3 +1,15 @@
+<div align="center">
+
+# MSEarth-Bench: A Benchmark for Multimodal Scientific Comprehension of Earth Science
+
+<a href="https://arxiv.org/abs/2505.20740"><img src='https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoColor=white' alt='arXiv'></a>
+
+[\[🤗 HuggingFace\]](https://huggingface.co/MSEarth) 
+
+</div>
+
+---
+
 # MSEarth Evaluation Guide
 
 This guide provides instructions for evaluating both open-sourced and proprietary Multimodal Large Language Models (MLLMs) using the MSEarth framework. You can download the benchmark dataset and images form https://huggingface.co/MSEarth.
