@@ -10,6 +10,8 @@
 
 ---
 
+<img src="./assets/teaser.png" width="100%" alt="main-results" align="center">
+
 # MSEarth Evaluation Guide
 
 This guide provides instructions for evaluating both open-sourced and proprietary Multimodal Large Language Models (MLLMs) using the MSEarth framework. You can download the benchmark dataset and images form https://huggingface.co/MSEarth.
