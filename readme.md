@@ -15,6 +15,10 @@
 
 <img src="./assets/teaser.png" width="100%" alt="main-results" align="center">
 
+### 🆕 News
+
+MSEarthMCQ is now integrated into [**VLMEvalKit**](https://github.com/open-compass/VLMEvalKit/tree/b01d484ddc316ce2ce7f7f77f7b0c19f5f705f3b), enabling users to easily evaluate various models on the platform. Special thanks to [**OpenCompass**](https://github.com/open-compass) for their support!
+
 ## Abstract
 
 The rapid advancement of multimodal large language models (MLLMs) has unlocked new opportunities to tackle complex scientific challenges. Despite this progress, their application in addressing earth science problems, especially at the graduate level, remains underexplored. A significant barrier is the absence of benchmarks that capture the depth and contextual complexity of geoscientific reasoning. Current benchmarks often rely on synthetic datasets or simplistic figure-caption pairs, which do not adequately reflect the intricate reasoning and domain-specific insights required for real-world scientific applications. To address these gaps, we introduce MSEarth, a multimodal scientific benchmark curated from high-quality, open-access scientific publications. MSEarth encompasses the five major spheres of Earth science: atmosphere, cryosphere, hydrosphere, lithosphere, and biosphere, featuring over 7K figures with refined captions. These captions are crafted from the original figure captions and enriched with discussions and reasoning from the papers, ensuring the benchmark captures the nuanced reasoning and knowledge-intensive content essential for advanced scientific tasks. MSEarth supports a variety of tasks, including scientific figure captioning, multiple choice questions, and open-ended reasoning challenges. By bridging the gap in graduate-level benchmarks, MSEarth provides a scalable and high-fidelity resource to enhance the development and evaluation of MLLMs in scientific reasoning. The benchmark is publicly available to foster further research and innovation in this field.
@@ -22,10 +26,6 @@ The rapid advancement of multimodal large language models (MLLMs) has unlocked n
 ## MSEarth Evaluation Guide
 
 This guide provides instructions for evaluating both open-sourced and proprietary Multimodal Large Language Models (MLLMs) using the MSEarth framework. You can download the benchmark dataset and images form https://huggingface.co/MSEarth.
-
-### 🆕 News
-
-MSEarthMCQ has been supported by [**VLMEvalKit**](https://github.com/open-compass/VLMEvalKit/tree/b01d484ddc316ce2ce7f7f77f7b0c19f5f705f3b), thanks to [**OpenCompass**](https://github.com/open-compass).
 
 ### Evaluation for Open-Sourced MLLMs
 
