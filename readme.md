@@ -17,7 +17,7 @@
 
 ### 🆕 News
 
-MSEarthMCQ is now integrated into [**VLMEvalKit**](https://github.com/open-compass/VLMEvalKit/tree/b01d484ddc316ce2ce7f7f77f7b0c19f5f705f3b), enabling users to easily evaluate various models on the platform. Special thanks to [**OpenCompass**](https://github.com/open-compass) for their support!
+[2025-5-24] MSEarthMCQ is now integrated into [**VLMEvalKit**](https://github.com/open-compass/VLMEvalKit/tree/b01d484ddc316ce2ce7f7f77f7b0c19f5f705f3b), enabling users to easily evaluate various models on the platform. Special thanks to [**OpenCompass**](https://github.com/open-compass) for their support!
 
 ## Abstract
 
