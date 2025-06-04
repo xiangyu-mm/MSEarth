@@ -2,9 +2,12 @@
 
 # MSEarth-Bench: A Benchmark for Multimodal Scientific Comprehension of Earth Science
 
-<a href="https://arxiv.org/abs/2505.20740"><img src='https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoColor=white' alt='arXiv'></a>
-
-[\[🤗 HuggingFace\]](https://huggingface.co/MSEarth) 
+<a href="https://arxiv.org/abs/2505.20740">
+  <img src="https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoColor=white" alt="arXiv">
+</a>
+<a href="https://huggingface.co/MSEarth">
+  <img src="https://img.shields.io/badge/HuggingFace-Dataset-yellow?logo=huggingface&logoColor=white" alt="HuggingFace">
+</a>
 
 </div>
 
