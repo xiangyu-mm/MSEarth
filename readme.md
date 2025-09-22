@@ -2,9 +2,6 @@
 
 # MSEarth-Bench: A Benchmark for Multimodal Scientific Comprehension of Earth Science
 
-<a href="https://arxiv.org/abs/2505.20740">
-  <img src="https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoColor=white" alt="arXiv">
-</a>
 <a href="https://huggingface.co/MSEarth">
   <img src="https://img.shields.io/badge/HuggingFace-Dataset-yellow?logo=huggingface&logoColor=white" alt="HuggingFace">
 </a>
@@ -13,11 +10,9 @@
 
 ---
 
-<img src="./assets/teaser.png" width="100%" alt="main-results" align="center">
-
 ### 🆕 News
 
-[2025-5-24] MSEarthMCQ is now integrated into [**VLMEvalKit**](https://github.com/open-compass/VLMEvalKit/tree/b01d484ddc316ce2ce7f7f77f7b0c19f5f705f3b), enabling users to easily evaluate various models on the platform. Special thanks to [**OpenCompass**](https://github.com/open-compass) for their support!
+MSEarthMCQ is now integrated into [**VLMEvalKit**](https://github.com/open-compass/VLMEvalKit/tree/b01d484ddc316ce2ce7f7f77f7b0c19f5f705f3b), enabling users to easily evaluate various models on the platform. Special thanks to [**OpenCompass**](https://github.com/open-compass) for their support!
 
 ## Abstract
 
