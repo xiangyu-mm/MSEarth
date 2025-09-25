@@ -2,7 +2,7 @@
 
 # MSEarth-Bench: A Benchmark for Multimodal Scientific Comprehension of Earth Science
 
-<a href="https://huggingface.co/MSEarth">
+<a href="https://huggingface.co/MSEarth-Data">
   <img src="https://img.shields.io/badge/HuggingFace-Dataset-yellow?logo=huggingface&logoColor=white" alt="HuggingFace">
 </a>
 
